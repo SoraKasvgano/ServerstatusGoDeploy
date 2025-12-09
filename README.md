@@ -9,8 +9,13 @@ with old serverstatus server
 ## Server
 
 ### Using docker to deploy
+1.simple deploy
 ```
 docker run -d --restart=always --name=serverstatus -v /home/docker/serverstatus/server-config.json:/ServerStatus/server/config.json -v /tmp/serverstatus-monthtraffic:/usr/share/nginx/html/json -p 35602:80 -p 35601:35601 docker.1panel.live/cppla/serverstatus:1.1.5
+```
+2.custom web deploy
+```
+docker run -d --restart=always --name=serverstatus -v /home/docker/serverstatus/server-config.json:/ServerStatus/server/config.json -v /home/docker/serverstatus/web:/usr/share/nginx/html -v /tmp/serverstatus-monthtraffic:/usr/share/nginx/html/json -p hostwebport:80 -p hostwsport:35601 docker.1panel.live/cppla/serverstatus:1.1.5
 ```
 
 ### config.json example
