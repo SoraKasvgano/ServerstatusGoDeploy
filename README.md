@@ -2,6 +2,12 @@
 
 scripts for serverstatus fast deploy
 
+### base on
+```
+https://github.com/LM-Home/ServerStatus-Go
+https://github.com/cppla/ServerStatus
+```
+
 # Compatiable
 
 with old serverstatus server
