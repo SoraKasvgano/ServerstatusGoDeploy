@@ -55,7 +55,7 @@ docker run -d --restart=always --name=serverstatus -v /home/docker/serverstatus/
 
 ```
 
-## Clinet
+## Client
 
 ### For Windows
 download the windows directory,click the bat script.
