@@ -1,6 +1,6 @@
 # ServerstatusGoDeploy
 
-scripts for serverstatus deploy
+scripts for serverstatus fast deploy
 
 # Compatiable
 
